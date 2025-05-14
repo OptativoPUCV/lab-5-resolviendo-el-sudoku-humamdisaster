@@ -21,3 +21,9 @@ ma., 13 de may. de 2025 20:35:44:
  tests:  5|3
 total_score: 35/70
 ca12364
+ma., 13 de may. de 2025 20:40:20: 
+ sudoku.c | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+ tests:  6|2
+total_score: 45/70
+4e49e8b
