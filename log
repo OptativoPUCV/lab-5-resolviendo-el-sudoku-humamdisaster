@@ -47,3 +47,13 @@ sudoku.c:122:18: error: void value not ignored as it ought to be
                   ^~~
 cc1.exe: all warnings being treated as errors
 072627e
+Wed, May 14, 2025  9:16:15 AM: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'DFS':
+sudoku.c:122:18: error: void value not ignored as it ought to be
+     Node* node = pop(pila);
+                  ^~~
+2b97706
