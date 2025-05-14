@@ -114,7 +114,23 @@ int is_final(Node* n){
     return 0;
 }
 
+
 Node* DFS(Node* initial, int* cont){
+  Stack* pila = createStack();
+  push(pila, initial);
+  while (size(pila) != 0){
+    Node* node = pop(pila);
+    if (is_final(node)) continue;
+
+    is_valid(node);
+    List* adjunto = get_adj_nodes(node);
+    Node* aux = first(adjunto);
+    while (aux){
+      push(pila, aux);
+      aux = next(adjunto);
+    }
+    free(node);
+  }
   return NULL;
 }
 
