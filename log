@@ -69,3 +69,20 @@ mi., 14 de may. de 2025 19:53:50:
  tests:  7|1
 total_score: 55/70
 8d70c4c
+mi., 14 de may. de 2025 20:06:09: 
+ sudoku.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'DFS':
+sudoku.c:127:11: error: implicit declaration of function 'isEmpty' [-Werror=implicit-function-declaration]
+   while (!isEmpty(stack)){
+           ^~~~~~~
+sudoku.c:128:21: error: void value not ignored as it ought to be
+     Node* current = pop(stack);
+                     ^~~
+sudoku.c:128:11: error: unused variable 'current' [-Werror=unused-variable]
+     Node* current = pop(stack);
+           ^~~~~~~
+cc1.exe: all warnings being treated as errors
+d7eede2
