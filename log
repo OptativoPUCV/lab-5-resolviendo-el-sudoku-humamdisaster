@@ -97,3 +97,9 @@ sudoku.c:127:11: error: implicit declaration of function 'isEmpty' [-Werror=impl
            ^~~~~~~
 cc1.exe: all warnings being treated as errors
 78b2c48
+mi., 14 de may. de 2025 20:16:34: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  10|0
+total_score: 70/70
+106590c
